@@ -59,8 +59,8 @@ public class SysLoginController
     private String getOpenId(String code) {
         /*String url = "https://api.weixin.qq.com/sns/jscode2session";
         HashMap map = new HashMap();
-        map.put("appid", "wx3e438cf6be0a690d");
-        map.put("secret", "fff3fdebd5b34373d7be5c298faa20da");
+        map.put("appid", "wx3e*****a690d");
+        map.put("secret", "fff3f******298faa20da");
         map.put("js_code", code);
         map.put("grant_type", "authorization_code");
         String response = HttpUtil.post(url, map);
